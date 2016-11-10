@@ -37,6 +37,18 @@ describe 'fizzbuzz_kata' do
     expect(is_divisible_by?(24, 5)).to eq false
   end
 
+  it 'should return "fizz" when passed 3' do
+    expect(fizzbuzz(3)).to eq "fizz"
+  end
+
+  it 'should return "buzz" when passd 5' do
+    expect(fizzbuzz(5)).to eq "buzz"
+  end
+
+  it 'should return "fizzbuzz" when passed 15' do
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
+  end
+
 
 
 end
